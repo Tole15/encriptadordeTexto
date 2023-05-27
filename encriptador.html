@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Reto Encriptador</h1> 
+    <div>
+      <p id="posa">César Alejandro Tolentino Mendoza</p>
+      <p id="posb">Colima, Villa de Álvarez</p>
+    </div>
+  </header>
+  <main class="main">
+    <h1>Encriptador y Desencriptador de Texto</h1>
+    <div class="textarea-container">
+      <div>
+        <label for="entradaTexto" id="texto">Texto de entrada:</label>
+        <textarea placeholder="Aqui escribe el texto a encriptar" id="entradaTexto" rows="4" cols="50"></textarea>
+      </div>
+      <div id="acciones">
+        <button id="cifrar">Encriptar</button>
+        <button id="descifrar">Desencriptar</button>
+        <button id="copiar">Copiar</button>
+        <button id="pegar">Pegar</button>
+      </div>
+      <div>
+        <label for="salidaTexto" id="texto">Texto de salida:</label>
+        <textarea placeholder="Aqui escribe el texto a desencriptar" id="salidaTexto" rows="4" cols="50" readonly></textarea>
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
